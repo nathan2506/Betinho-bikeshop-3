@@ -234,9 +234,8 @@ section.sessao3 .container{
 .marcas {
     width: 100%;
     height: 550px;
-    position: relative;
+    position: absolute;
     top: 1000px;
-    display: inline-block
 }
 .marcas h2{
     text-align: center;
