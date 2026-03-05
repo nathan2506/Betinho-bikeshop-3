@@ -231,15 +231,73 @@ section.sessao3 .container{
     line-height: 35px;
     margin-top: 20px;
 }
+.marcas {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 1000px;
+}
+.marcas h2{
+    text-align: center;
+    font-weight: normal;
+    color:white;
+    font-size: 25px;
+    
+}
+.marcas h2{
+     background-color:black;
+     padding: 50px 0;
+}
+.container-marcas{
+    margin-top: 20px;
+    text-align: center;
+}   
+
+.oggi{
+    float: left;
+    width: 25%;
+}
+.oggi img{
+    width: 80%;
+}
+.absolut{
+    float: left;
+    width: 25%;
+}
+.absolut img{
+    width: 80%;
+}
+.viking{
+    float: left;
+    width: 25%;
+}
+.viking img{
+    width: 80%;
+}
+.shimano{
+    float: left;
+    width: 25%;
+}
+.shimano img{
+    width: 80%;
+}
+
 footer{
     width: 100%;
     height: 200px;
+    text-align: center;
+    position: relative;
+    top: 1100px;
     /*padding: 40px 2%;*/
     background-color: black;
     color: white;
-    text-align: center;
     line-height: 200px;
-    display: inline-block;
+   /* display: inline-block;*/
+}
+footer p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
 }
 @media screen and (max-width: 768px){
     header{
@@ -331,7 +389,7 @@ footer{
         display: inline-block;
     }
     .img-sessao1{
-        /*display: none;*/
+       /* display: none;*/
         width: 100%;
         float: none;
         height: auto;
@@ -367,7 +425,7 @@ footer{
         display: inline-block;
     }
     .img-sessao2{
-        /*display: none;*/
+       /* display: none;*/
         width: 100%;
         float: none;
         height: auto;
@@ -412,15 +470,121 @@ footer{
         padding-left: 0;
         display: inline-block;
     }
-    footer{
+    .marcas h2{
         width: 100%;
         height: auto;
-        padding: 20px 2%;
         text-align: center;
-        position: relative;
-        top: 600px;
-       /* line-height: normal;*/ 
-        display: inline-block;   
+        margin-top: 30px;
+    
+    }
+   .container-marcas{
+        width:100%;
+        margin:0 auto;
+        text-align:center;
     }
 
+
+    .oggi, .absolut, .viking, .shimano{  
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+        padding: 30px 0;
+        
+    }
+      footer{
+        width:100%;
+        padding:20px 2%;
+        text-align:center;
+        margin-top: 0;
+}
+
+}
+@media screen and (max-width: 510px) {
+   /* .container-marcas{
+        width: 100%;
+        display:inline-block;
+        margin: 0 auto;
+
+    
+    }
+    .oggi, .absolut, .viking, .shimano{  
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+        padding: 30px 0;
+        
+    }
+    footer{
+        width:100%;
+        height: auto;
+        padding:20px 2%;
+        text-align:center;
+        
+}*/
+ section.sessao3{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+    .sessao3 .part1{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        position: static;
+        float: none
+    }
+    .part1 .texto-part1{
+        max-width: none;
+        width: 100%;
+        height: auto;
+        float: none;
+        padding-left: 0;
+        display: inline-block;
+    }
+    .sessao3 .part2{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        position: static;
+        float: none;
+        
+    }
+    .part2 .texto-part2{
+        max-width: none;
+        width: 100%;
+        height: auto;
+        float: none;
+        padding-left: 0;
+        display: inline-block;
+    }
+    .marcas h2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 200px;
+    
+    }
+   .container-marcas{
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+    }
+
+
+    .oggi, .absolut, .viking, .shimano{  
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+        padding: 30px 0;
+        
+    }
+      footer{
+        width:100%;
+        padding:20px 2%;
+        text-align:center;
+        margin-top: 1000px;
+}
 }
